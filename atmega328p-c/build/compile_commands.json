@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/adam/KoNaR/warsztaty/atmega328p-c/build",
+  "command": "/usr/bin/avr-gcc -DF_CPU=16000000UL -I/home/adam/KoNaR/warsztaty/atmega328p-c/include -g -Os -Wall -Wextra -Wpedantic -mmcu=atmega328p -o CMakeFiles/atmega328p-c.elf.dir/src/main.c.obj -c /home/adam/KoNaR/warsztaty/atmega328p-c/src/main.c",
+  "file": "/home/adam/KoNaR/warsztaty/atmega328p-c/src/main.c"
+}
+]

@@ -1,0 +1,4 @@
+/home/adam/KoNaR/warsztaty/atmega328p-c/build/CMakeFiles/atmega328p-c.elf.dir
+/home/adam/KoNaR/warsztaty/atmega328p-c/build/CMakeFiles/flash.dir
+/home/adam/KoNaR/warsztaty/atmega328p-c/build/CMakeFiles/edit_cache.dir
+/home/adam/KoNaR/warsztaty/atmega328p-c/build/CMakeFiles/rebuild_cache.dir
