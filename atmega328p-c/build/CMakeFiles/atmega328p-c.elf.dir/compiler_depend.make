@@ -15,8 +15,15 @@ CMakeFiles/atmega328p-c.elf.dir/src/main.c.obj: ../src/main.c \
   /usr/lib/avr/include/avr/lock.h \
   /usr/lib/avr/include/util/delay.h \
   /usr/lib/avr/include/util/delay_basic.h \
-  /usr/lib/avr/include/math.h
+  /usr/lib/avr/include/math.h \
+  /usr/lib/avr/include/avr/interrupt.h \
+  /usr/lib/avr/include/avr/pgmspace.h \
+  /usr/lib/gcc/avr/5.4.0/include/stddef.h
 
+
+/usr/lib/gcc/avr/5.4.0/include/stddef.h:
+
+/usr/lib/avr/include/avr/interrupt.h:
 
 /usr/lib/avr/include/math.h:
 
@@ -41,6 +48,8 @@ CMakeFiles/atmega328p-c.elf.dir/src/main.c.obj: ../src/main.c \
 /usr/lib/avr/include/avr/version.h:
 
 /usr/lib/avr/include/avr/fuse.h:
+
+/usr/lib/avr/include/avr/pgmspace.h:
 
 /usr/lib/avr/include/avr/lock.h:
 

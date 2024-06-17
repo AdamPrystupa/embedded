@@ -17,4 +17,7 @@ CMakeFiles/atmega328p-c.elf.dir/src/main.c.obj
  /usr/lib/avr/include/util/delay.h
  /usr/lib/avr/include/util/delay_basic.h
  /usr/lib/avr/include/math.h
+ /usr/lib/avr/include/avr/interrupt.h
+ /usr/lib/avr/include/avr/pgmspace.h
+ /usr/lib/gcc/avr/5.4.0/include/stddef.h
 
