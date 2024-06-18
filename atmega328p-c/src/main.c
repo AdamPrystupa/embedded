@@ -25,7 +25,6 @@ int main(void) {
 }
 */
 
-
 // Wstęp do PWM
 /*
 int main(void) {
@@ -237,8 +236,8 @@ int main(void) {
 }
 */
 
-#include <avr/io.h>
 #include <avr/interrupt.h>
+#include <avr/io.h>
 #include <avr/pgmspace.h>
 #include <util/delay.h>
 
@@ -267,7 +266,11 @@ volatile uint8_t sine_index = 0;
 
 // ISR dla przerwania zewnętrznego INT0
 ISR(INT0_vect) {
-  PORTB &= ~(1 << PORTB4); // Wyłącz diodę na PB4
+  if (PIND & (1 << PIND2)) {
+    PORTB |= (1 << PORTB4);
+  } else {
+    PORTB &= ~(1 << PORTB4);
+  }
 }
 
 // ISR dla Timer1
@@ -313,7 +316,7 @@ int main(void) {
   sei();
 
   while (1) {
-    // Nic do robienia w głównej pętli
+
   }
 
   return 0;
